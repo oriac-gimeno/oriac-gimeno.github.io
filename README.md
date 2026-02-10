@@ -169,11 +169,10 @@ Optimización para dispositivos móviles o edge computing
 👨‍💻 Autor
 Oriac Gimeno
 
-GitHub: @tu-usuario
+GitHub: @oriac-gimeno
+LinkedIn: www.linkedin.com/in/oriacgimeno
 
-LinkedIn: Oriac Gimeno
-
-Portfolio: tu-portfolio.com
+Portfolio: 
 
 📄 Licencia
 Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
