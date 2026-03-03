@@ -1,13 +1,36 @@
-# Títol del site
-title: "Oriac Gimeno — Portfolio"
+# Site settings
+title: "Oriac Gimeno Lozano – Data & ML Portfolio"
+description: "Professional portfolio showcasing projects in data analytics, machine learning, deep learning, and data visualization."
+baseurl: ""  # Keep empty for user/organization site
+url: "https://oriac-gimeno.github.io"
 
-# Tema remot Jekyll (ja inclou layouts, CSS i plantilles)
-remote_theme: mmistakes/minimal-mistakes@4.19.0
+# Author information
+author:
+  name: "Oriac Gimeno Lozano"
+  email: "gimenooriac@gmail.com"                
+  github_username: "oriac-gimeno"
+  linkedin_username: "oriacgimeno"        # <--- Your LinkedIn username (without @)
+  
 
-# Plugins addicionals
+# Theme
+remote_theme: sylhare/Type-on-Strap
+
+# Plugins
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag                         # Recommended for better SEO
 
-# Informació de l’autor
-author:
-  name: "Oriac Gimeno"
+# Theme options (see https://github.com/sylhare/Type-on-Strap/wiki)
+dark_theme: true                           # Enable dark mode (professional look)
+# If you prefer a light theme, set to false
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
