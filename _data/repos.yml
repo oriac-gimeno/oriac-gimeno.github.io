@@ -1,51 +1,59 @@
 - name: "Models-de-CNN-en-classificaci-d-imatges"
   url: "https://github.com/oriac-gimeno/Models-de-CNN-en-classificaci-d-imatges"
+  desc: "End-to-end CNN pipeline using TensorFlow/Keras for image classification (dogs vs. cats). Includes data preprocessing, training, evaluation, and inference scripts."
   categories: ["Machine Learning / Deep Learning", "Python / Utilities / Practiques"]
 
 - name: "Models-predictius-de-ML"
   url: "https://github.com/oriac-gimeno/Models-predictius-de-ML"
+  desc: "Exploratory Data Analysis and predictive modeling using various ML algorithms. Includes a project presentation and analysis notebooks."
   categories: ["Machine Learning / Deep Learning", "Python / Utilities / Practiques"]
 
 - name: "Models-de-Web-scraping"
   url: "https://github.com/oriac-gimeno/Models-de-Web-scraping"
+  desc: "Web scraping tool built with Streamlit and BeautifulSoup. Demonstrates data extraction, processing, and interactive visualization."
   categories: ["Machine Learning / Deep Learning", "Python / Utilities / Practiques"]
 
 - name: "ProjecteData"
   url: "https://github.com/oriac-gimeno/ProjecteData"
+  desc: "Data analysis projects using SQL and Python. Focuses on data cleaning, transformation, and exploratory analysis."
   categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques"]
 
 - name: "Projectes d'analítica de dades"
   url: "https://github.com/oriac-gimeno/Projectes-d-analítica-de-dades"
+  desc: "Collection of data analytics projects showcasing SQL queries, Python scripts, and data visualization techniques."
   categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques"]
 
 - name: "Reskilling-Data-Analytics"
   url: "https://github.com/oriac-gimeno/Reskilling-Data-Analytics"
+  desc: "Comprehensive data analytics portfolio including SQL, Python, and Power BI dashboards. Demonstrates end-to-end analysis workflow."
   categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques", "Power BI / Visual Analytics"]
 
 - name: "IT-Acadeny-Simulador-empresarial"
   url: "https://github.com/oriac-gimeno/IT-Acadeny-Simulador-empresarial"
+  desc: "Business simulation project with data analysis, SQL queries, and interactive Power BI dashboards for decision-making."
   categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques", "Power BI / Visual Analytics"]
 
 - name: "Practiques-Cuaderns-Python"
   url: "https://github.com/oriac-gimeno/Practiques-Cuaderns-Python"
+  desc: "Collection of Python practice notebooks covering data manipulation, visualization, and basic machine learning concepts."
   categories: ["Python / Utilities / Practiques"]
 
 - name: "Entregues-Cuaderns-Python"
   url: "https://github.com/oriac-gimeno/Entregues-Cuaderns-Python"
+  desc: "Assorted Python notebooks with exercises and solutions. Covers core programming, data structures, and algorithms."
   categories: ["Python / Utilities / Practiques"]
 
 - name: "oriac-gimeno.github.io"
   url: "https://github.com/oriac-gimeno/oriac-gimeno.github.io"
+  desc: "Personal portfolio website built with Jekyll and Type-on-Strap theme. Showcases data science and ML projects."
   categories: ["Web / Portfolio / Pages"]
 
 - name: "oriac81.github.io"
   url: "https://github.com/oriac-gimeno/oriac81.github.io"
+  desc: "Legacy personal page. Redirects to the main portfolio."
   categories: ["Web / Portfolio / Pages"]
 
 - name: "oriac81"
   url: "https://github.com/oriac-gimeno/oriac81"
-  categories: ["Personal / Profile"]
-
-- name: "oriac-gimeno"
-  url: "https://github.com/oriac-gimeno/oriac-gimeno"
+  desc: "Personal profile README with professional summary and links."
   categories: ["Personal / Profile"]
