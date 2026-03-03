@@ -1,0 +1,13 @@
+# Títol del site
+title: "Oriac Gimeno — Portfolio"
+
+# Tema remot Jekyll (ja inclou layouts, CSS i plantilles)
+remote_theme: mmistakes/minimal-mistakes
+
+# Plugins addicionals
+plugins:
+  - jekyll-feed
+
+# Informació de l’autor
+author:
+  name: "Oriac Gimeno"
