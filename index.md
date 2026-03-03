@@ -4,10 +4,6 @@ title: "Data & ML Portfolio"
 permalink: /
 ---
 
-<!-- Carga de Bootstrap y Font Awesome (CDN) -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 <!-- Introducción con foto -->
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
   <img src="/assets/images/meva-foto.png" alt="Oriac Gimeno" style="width: 150px; border-radius: 50%;">
@@ -21,14 +17,10 @@ permalink: /
 {% assign total_projects = site.data.repos | size %}
 <p class="lead mb-4">Currently showcasing <strong>{{ total_projects }}</strong> projects across different areas.</p>
 
-<!-- ======================================== -->
 <!-- ORDEN MANUAL DE CATEGORÍAS (UNA SOLA LÍNEA) -->
-<!-- ======================================== -->
 {% assign category_order = "Personal / Profile, Data Analytics / SQL / Projects, Machine Learning / Deep Learning, Power BI / Visual Analytics, Python / Utilities / Practiques, Web / Portfolio / Pages" | split: ", " %}
 
-<!-- ======================================== -->
 <!-- BUCLE PARA CADA CATEGORÍA -->
-<!-- ======================================== -->
 {% for category in category_order %}
   {% assign category_projects = site.data.repos | where_exp: "repo", "repo.categories contains category" %}
   {% if category_projects.size > 0 %}
