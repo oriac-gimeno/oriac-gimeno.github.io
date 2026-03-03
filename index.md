@@ -4,10 +4,9 @@ title: "Data & ML Portfolio"
 permalink: /
 ---
 
-<!-- Bootstrap local -->
 <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Introducció amb foto -->
+<!-- Introduction with photo -->
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
   <img src="/assets/images/meva-foto.png" alt="Oriac Gimeno" style="width: 150px; border-radius: 50%;">
   <div>
@@ -16,12 +15,12 @@ permalink: /
   </div>
 </div>
 
-<!-- Comptador de projectes -->
+<!-- Count projects for context -->
 {% assign total_projects = site.data.repos | size %}
 <p class="lead mb-4">Currently showcasing <strong>{{ total_projects }}</strong> projects across different areas.</p>
 
 <!-- ======================================== -->
-<!-- ORDE MANUAL DE LES CATEGORIES            -->
+<!-- MANUAL CATEGORY ORDER - EDIT THIS LIST   -->
 <!-- ======================================== -->
 {% assign category_order = 
   "Personal / Profile, 
@@ -30,8 +29,9 @@ permalink: /
    Power BI / Visual Analytics, 
    Python / Utilities / Practiques, 
    Web / Portfolio / Pages" | split: ", " %}
+<!-- ======================================== -->
 
-<!-- Bucle principal -->
+<!-- Loop through each category in the defined order -->
 {% for category in category_order %}
   {% assign category_projects = site.data.repos | where_exp: "repo", "repo.categories contains category" %}
   {% if category_projects.size > 0 %}
@@ -66,7 +66,7 @@ permalink: /
   {% endif %}
 {% endfor %}
 
-<!-- Peu de pàgina -->
+<!-- Footer with social links and icons -->
 <hr class="mt-5">
 <p class="text-center text-muted">
   📫 Connect with me:
