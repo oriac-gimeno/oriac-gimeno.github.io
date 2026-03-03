@@ -3,6 +3,7 @@ layout: page
 title: "Data & ML Portfolio"
 permalink: /
 ---
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Introduction with photo -->
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
