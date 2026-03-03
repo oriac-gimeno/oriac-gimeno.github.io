@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<!-- Count projects for context -->
-=======
 ---
 layout: page
 title: "Data & ML Portfolio"
@@ -21,7 +18,6 @@ permalink: /
 </div>
 
 <!-- Contador total de proyectos -->
->>>>>>> b22afa4716d1ce612cbb1bf92e6964225ddd3f3c
 {% assign total_projects = site.data.repos | size %}
 <p class="lead mb-4">Currently showcasing <strong>{{ total_projects }}</strong> projects across different areas.</p>
 
@@ -60,9 +56,6 @@ permalink: /
       </div>
     </div>
   {% endif %}
-<<<<<<< HEAD
-{% endfor %}
-=======
 {% endfor %}
 
 <!-- Footer con enlaces sociales -->
@@ -72,4 +65,3 @@ permalink: /
   <a href="https://github.com/oriac-gimeno" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fab fa-github"></i> GitHub</a> •
   <a href="https://www.linkedin.com/in/oriacgimeno" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
 </p>
->>>>>>> b22afa4716d1ce612cbb1bf92e6964225ddd3f3c
