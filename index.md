@@ -12,7 +12,6 @@ permalink: /
     <p>Welcome to my professional portfolio. Here you'll find a selection of projects I've developed in <strong>Data Science, Machine Learning, Deep Learning, and Visual Analytics</strong>. Each project may appear in multiple categories based on the technologies involved.</p>
   </div>
 </div>
----
 
 <!-- Count projects for context -->
 {% assign total_projects = site.data.repos | size %}
