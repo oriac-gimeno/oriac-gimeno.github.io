@@ -48,12 +48,12 @@
   desc: "Personal portfolio website built with Jekyll and Type-on-Strap theme. Showcases data science and ML projects."
   categories: ["Web / Portfolio / Pages"]
 
-- name: "oriac81.github.io"
-  url: "https://github.com/oriac-gimeno/oriac81.github.io"
-  desc: "Legacy personal page. Redirects to the main portfolio."
-  categories: ["Web / Portfolio / Pages"]
+#- name: "oriac81.github.io"
+#  url: "https://github.com/oriac-gimeno/oriac81.github.io"
+#  desc: "Legacy personal page. Redirects to the main portfolio."
+#  categories: ["Web / Portfolio / Pages"]
 
-- name: "oriac81"
-  url: "https://github.com/oriac-gimeno/oriac81"
+- name: "oriac-gimeno"
+  url: "https://github.com/oriac-gimeno/oriac-gimeno"
   desc: "Personal profile README with professional summary and links."
   categories: ["Personal / Profile"]
