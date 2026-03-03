@@ -1,12 +1,4 @@
 ---
-layout: home
-title: "Oriac Gimeno — Data & ML Portfolio"
----
-
-Benvingut al meu portfolio.  
-A continuació trobaràs els projectes organitzats per categories.
-
----
 layout: page
 title: "Data & ML Portfolio"
 permalink: /
@@ -50,7 +42,7 @@ Each project may appear in multiple categories based on the technologies involve
                 <p class="card-text text-muted fst-italic">No description provided.</p>
               {% endif %}
               
-              <!-- Optional: technology badges if you add a 'tech' field later -->
+              <!-- Optional: technology badges (activate when you add 'tech' field to repos.yml) -->
               <!-- 
               {% if repo.tech %}
                 <div class="mb-2">
@@ -72,10 +64,14 @@ Each project may appear in multiple categories based on the technologies involve
   </div>
 {% endfor %}
 
-<!-- Footer with social links -->
+<!-- Footer with social links and icons -->
 <hr class="mt-5">
 <p class="text-center text-muted">
   📫 Connect with me:
-  <a href="https://github.com/oriac-gimeno" target="_blank" rel="noopener noreferrer" class="mx-2">GitHub</a> •
-  <a href="https://www.linkedin.com/in/oriacgimeno" target="_blank" rel="noopener noreferrer" class="mx-2">LinkedIn</a>
+  <a href="https://github.com/oriac-gimeno" target="_blank" rel="noopener noreferrer" class="mx-2">
+    <i class="fab fa-github"></i> GitHub
+  </a> •
+  <a href="https://www.linkedin.com/in/oriacgimeno" target="_blank" rel="noopener noreferrer" class="mx-2">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
 </p>
