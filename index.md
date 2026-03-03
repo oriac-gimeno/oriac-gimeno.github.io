@@ -5,10 +5,9 @@ permalink: /
 ---
 
 <!-- Introduction with photo -->
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-  <img src="/assets/images/meva-foto.jpg" alt="Oriac Gimeno" style="width: 150px; border-radius: 50%;">
-  <div>
-    <h1>👋 Hi, I'm <strong>Oriac Gimeno</strong></h1>
+  <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <img src="/assets/images/meva-foto.jpg" alt="Oriac Gimeno" style="width: 150px; border-radius: 50%; float: left; margin-right: 20px;">
+<   h1>👋 Hi, I'm <strong>Oriac Gimeno</strong></h1>
     <p>Welcome to my professional portfolio. Here you'll find a selection of projects I've developed in <strong>Data Science, Machine Learning, Deep Learning, and Visual Analytics</strong>. Each project may appear in multiple categories based on the technologies involved.</p>
   </div>
 </div>
