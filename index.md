@@ -4,8 +4,8 @@ title: "Data & ML Portfolio"
 permalink: /
 ---
 
-<!-- BOOTSTRAP - indispensable per al grid -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap local -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Introducció amb foto -->
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
@@ -16,13 +16,12 @@ permalink: /
   </div>
 </div>
 
-<!-- Comptador de projectes (Liquid) -->
+<!-- Comptador de projectes -->
 {% assign total_projects = site.data.repos | size %}
 <p class="lead mb-4">Currently showcasing <strong>{{ total_projects }}</strong> projects across different areas.</p>
 
 <!-- ======================================== -->
 <!-- ORDE MANUAL DE LES CATEGORIES            -->
-<!-- Canvia l'ordre aquí i es reflectirà      -->
 <!-- ======================================== -->
 {% assign category_order = 
   "Personal / Profile, 
@@ -32,7 +31,7 @@ permalink: /
    Python / Utilities / Practiques, 
    Web / Portfolio / Pages" | split: ", " %}
 
-<!-- Bucle principal: per cada categoria en l'ordre manual -->
+<!-- Bucle principal -->
 {% for category in category_order %}
   {% assign category_projects = site.data.repos | where_exp: "repo", "repo.categories contains category" %}
   {% if category_projects.size > 0 %}
@@ -40,7 +39,6 @@ permalink: /
       <h2 class="category-title">{{ category }}</h2>
       <p class="text-muted">{{ category_projects | size }} project(s)</p>
 
-      <!-- GRID DE BOOTSTRAP: cada projecte en una columna -->
       <div class="row">
         {% for repo in category_projects %}
           <div class="col-md-6 col-lg-4 mb-4">
@@ -68,7 +66,7 @@ permalink: /
   {% endif %}
 {% endfor %}
 
-<!-- Peu de pàgina amb enllaços -->
+<!-- Peu de pàgina -->
 <hr class="mt-5">
 <p class="text-center text-muted">
   📫 Connect with me:
