@@ -2,7 +2,7 @@
 title: "Oriac Gimeno — Portfolio"
 
 # Tema remot Jekyll (ja inclou layouts, CSS i plantilles)
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 # Plugins addicionals
 plugins:
