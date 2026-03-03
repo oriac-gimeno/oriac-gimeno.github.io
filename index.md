@@ -30,7 +30,7 @@ permalink: /
   {% if category_projects.size > 0 %}
     <div class="category-section mb-5">
       <h2 class="category-title">{{ category }}</h2>
-      <p class="text-muted">{{ category_projects | size }} project(s)</p>
+      <p class="text-muted">{{ category_projects.size }} project(s)</p>
       <div class="row">
         {% for repo in category_projects %}
           <div class="col-md-6 col-lg-4 mb-4">
@@ -39,13 +39,11 @@ permalink: /
                 <h5 class="card-title">
                   <a href="{{ repo.url }}" target="_blank" rel="noopener noreferrer">{{ repo.name }}</a>
                 </h5>
-                
                 {% if repo.desc %}
                   <p class="card-text">{{ repo.desc }}</p>
                 {% else %}
                   <p class="card-text text-muted fst-italic">No description provided.</p>
                 {% endif %}
-                
                 <a href="{{ repo.url }}" class="btn btn-outline-primary btn-sm mt-auto align-self-start" target="_blank" rel="noopener noreferrer">
                   <i class="fab fa-github me-1"></i> View on GitHub
                 </a>
