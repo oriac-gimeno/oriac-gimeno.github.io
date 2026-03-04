@@ -4,10 +4,6 @@ title: "Data & ML Portfolio"
 permalink: /
 ---
 
-<!-- CARGA EXPLÍCITA DE BOOTSTRAP Y FONT AWESOME (CDN) -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 <!-- Introducción con foto -->
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
   <img src="/assets/images/meva-foto.png" alt="Oriac Gimeno" style="width: 150px; border-radius: 50%;">
