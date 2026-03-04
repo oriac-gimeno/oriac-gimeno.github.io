@@ -1,47 +1,47 @@
-- name: "Models-de-CNN-en-classificaci-d-imatges"
-  url: "https://github.com/oriac-gimeno/Models-de-CNN-en-classificaci-d-imatges"
+- name: "TensorFlow-CNN-Image-Classification "
+  url: "https://github.com/oriac-gimeno/TensorFlow-CNN-Image-Classification "
   desc: "End-to-end CNN pipeline using TensorFlow/Keras for image classification (dogs vs. cats). Includes data preprocessing, training, evaluation, and inference scripts."
   categories: ["Machine Learning / Deep Learning", "Python / Utilities / Practiques"]
 
-- name: "Models-predictius-de-ML"
-  url: "https://github.com/oriac-gimeno/Models-predictius-de-ML"
+- name: "Machine-Learning-Predictive-Models "
+  url: "https://github.com/oriac-gimeno/Machine-Learning-Predictive-Models "
   desc: "Exploratory Data Analysis and predictive modeling using various ML algorithms. Includes a project presentation and analysis notebooks."
   categories: ["Machine Learning / Deep Learning", "Python / Utilities / Practiques"]
 
-- name: "Models-de-Web-scraping"
-  url: "https://github.com/oriac-gimeno/Models-de-Web-scraping"
+- name: "Web-Scraping-Models"
+  url: "https://github.com/oriac-gimeno/Web-Scraping-Models"
   desc: "Web scraping tool built with Streamlit and BeautifulSoup. Demonstrates data extraction, processing, and interactive visualization."
   categories: ["Machine Learning / Deep Learning", "Python / Utilities / Practiques"]
 
-- name: "ProjecteData"
-  url: "https://github.com/oriac-gimeno/ProjecteData"
-  desc: "Data analysis projects using SQL and Python. Focuses on data cleaning, transformation, and exploratory analysis."
-  categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques"]
+#- name: "ProjecteData"
+#  url: "https://github.com/oriac-gimeno/ProjecteData"
+#  desc: "Data analysis projects using SQL and Python. Focuses on data cleaning, transformation, and exploratory analysis."
+#  categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques"]
 
-- name: "Projectes d'analítica de dades"
-  url: "https://github.com/oriac-gimeno/Projectes-d-analítica-de-dades"
-  desc: "Collection of data analytics projects showcasing SQL queries, Python scripts, and data visualization techniques."
-  categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques"]
+#- name: "Projectes d'analítica de dades"
+#  url: "https://github.com/oriac-gimeno/Projectes-d-analítica-de-dades"
+#  desc: "Collection of data analytics projects showcasing SQL queries, Python scripts, and data visualization techniques."
+#  categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques"]
 
-- name: "Reskilling-Data-Analytics"
-  url: "https://github.com/oriac-gimeno/Reskilling-Data-Analytics"
+- name: "Reskilling-Data-Analytics-IT-Academy"
+  url: "https://github.com/oriac-gimeno/Reskilling-Data-Analytics-IT-Academy"
   desc: "Comprehensive data analytics portfolio including SQL, Python, and Power BI dashboards. Demonstrates end-to-end analysis workflow."
   categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques", "Power BI / Visual Analytics"]
 
-- name: "IT-Acadeny-Simulador-empresarial"
-  url: "https://github.com/oriac-gimeno/IT-Acadeny-Simulador-empresarial"
+- name: "Python-SQL-PowerBI-Business-Simulation-IT-Academy"
+  url: "https://github.com/oriac-gimeno/Python-SQL-PowerBI-Business-Simulation-IT-Academy"
   desc: "Business simulation project with data analysis, SQL queries, and interactive Power BI dashboards for decision-making."
   categories: ["Data Analytics / SQL / Projects", "Python / Utilities / Practiques", "Power BI / Visual Analytics"]
 
-- name: "Practiques-Cuaderns-Python"
-  url: "https://github.com/oriac-gimeno/Practiques-Cuaderns-Python"
-  desc: "Collection of Python practice notebooks covering data manipulation, visualization, and basic machine learning concepts."
-  categories: ["Python / Utilities / Practiques"]
+#- name: "Practiques-Cuaderns-Python"
+#  url: "https://github.com/oriac-gimeno/Practiques-Cuaderns-Python"
+#  desc: "Collection of Python practice notebooks covering data manipulation, visualization, and basic machine learning concepts."
+#  categories: ["Python / Utilities / Practiques"]
 
-- name: "Entregues-Cuaderns-Python"
-  url: "https://github.com/oriac-gimeno/Entregues-Cuaderns-Python"
-  desc: "Assorted Python notebooks with exercises and solutions. Covers core programming, data structures, and algorithms."
-  categories: ["Python / Utilities / Practiques"]
+#- name: "Entregues-Cuaderns-Python"
+#  url: "https://github.com/oriac-gimeno/Entregues-Cuaderns-Python"
+#  desc: "Assorted Python notebooks with exercises and solutions. Covers core programming, data structures, and algorithms."
+#  categories: ["Python / Utilities / Practiques"]
 
 - name: "oriac-gimeno.github.io"
   url: "https://github.com/oriac-gimeno/oriac-gimeno.github.io"
