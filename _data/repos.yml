@@ -1,4 +1,4 @@
-- name: "TensorFlow-CNN-Image-Classification "
+- name: "TensorFlow-Keras-CNN-Image-Classification "
   url: "https://github.com/oriac-gimeno/TensorFlow-CNN-Image-Classification "
   desc: "End-to-end CNN pipeline using TensorFlow/Keras for image classification (dogs vs. cats). Includes data preprocessing, training, evaluation, and inference scripts."
   categories: ["Machine Learning / Deep Learning", "Python / Utilities / Practiques"]
