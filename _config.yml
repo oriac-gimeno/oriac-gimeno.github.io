@@ -1,6 +1,7 @@
 # Site settings
-title: "Oriac Gimeno Lozano – Data & ML Portfolio"
-description: "Professional portfolio showcasing projects in data analytics, machine learning, deep learning, and data visualization."
+# He incluido tu nombre completo y el corto en el título para captar ambas búsquedas
+title: "Oriac Gimeno Lozano (Oriac Gimeno) – Data & ML Portfolio"
+description: "Professional portfolio of Oriac Gimeno Lozano (Oriac Gimeno). Senior Business Development & Data Strategist specializing in Data Analytics, Machine Learning, and B2B Strategy."
 baseurl: ""  # Keep empty for user/organization site
 url: "https://oriac-gimeno.github.io"
 
@@ -11,6 +12,13 @@ author:
   github_username: "oriac-gimeno"
   linkedin_username: "oriacgimeno"        # <--- Your LinkedIn username (without @)
   
+# SEO & Social
+# Añadir esto ayuda al plugin SEO a conectar tus perfiles
+social:
+  name: Oriac Gimeno Lozano
+  links:
+    - https://www.linkedin.com/in/oriacgimeno/
+    - https://oriac-gimeno.framer.website/
 
 # Theme
 remote_theme: sylhare/Type-on-Strap
@@ -18,11 +26,10 @@ remote_theme: sylhare/Type-on-Strap
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag                         # Recommended for better SEO
+  - jekyll-seo-tag                         # Genera automáticamente las meta-tags de Google
 
-# Theme options (see https://github.com/sylhare/Type-on-Strap/wiki)
-dark_theme: true                           # Enable dark mode (professional look)
-# If you prefer a light theme, set to false
+# Theme options
+dark_theme: true                           
 
 # Build settings
 markdown: kramdown
