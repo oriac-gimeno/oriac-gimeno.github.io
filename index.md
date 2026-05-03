@@ -1,15 +1,19 @@
 ---
 layout: default
-title: "Data & ML Portfolio"
+title: "Oriac Gimeno Lozano | Business Strategy & Data Portfolio"
 permalink: /
 ---
 
-<!-- Introducción con foto -->
+<!-- Introducción con foto y SEO optimizado -->
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-  <img src="/assets/images/meva-foto.png" alt="Oriac Gimeno" style="width: 150px; border-radius: 50%;">
+  <img src="/assets/images/meva-foto.png" alt="Oriac Gimeno Lozano (Oriac Gimeno)" style="width: 150px; border-radius: 50%;">
   <div>
-    <h1>👋 Hi, I'm <strong>Oriac Gimeno</strong></h1>
-    <p>Welcome to my professional portfolio. Here you'll find a selection of projects I've developed in <strong>Data Science, Machine Learning, Deep Learning, and Visual Analytics</strong>. Each project may appear in multiple categories based on the technologies involved.</p>
+    <h1>👋 Hi, I'm <strong>Oriac Gimeno Lozano</strong></h1>
+    <p style="font-size: 1.1em; color: #555; margin-bottom: 10px;"><strong>Business Development Director | B2B Commercial Strategy · Data-Driven Growth</strong></p>
+    <p>Welcome to my professional portfolio. Here you'll find a selection of projects I've developed in <strong>Data Science, Machine Learning, and Strategic Analytics</strong>. Also known professionally as <strong>Oriac Gimeno</strong>, I bridge the gap between high-level business strategy and data-driven execution.</p>
+    <div style="margin-top: 15px;">
+      <a href="https://oriac-gimeno.framer.website/" class="btn btn-primary btn-sm" target="_blank" style="background-color: #0055FF; border: none;">🚀 Oriac Gimeno Consulting</a>
+    </div>
   </div>
 </div>
 
@@ -53,10 +57,14 @@ permalink: /
   {% endif %}
 {% endfor %}
 
-<!-- Footer con enlaces sociales -->
+<!-- Footer con enlaces sociales y texto defensivo SEO -->
 <hr class="mt-5">
 <p class="text-center text-muted">
   📫 Connect with me:
   <a href="https://github.com/oriac-gimeno" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fab fa-github"></i> GitHub</a> •
-  <a href="https://www.linkedin.com/in/oriacgimeno" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  <a href="https://www.linkedin.com/in/oriacgimeno" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fab fa-linkedin"></i> LinkedIn</a> •
+  <a href="https://oriac-gimeno.framer.website/" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fas fa-briefcase"></i> Consulting</a>
+</p>
+<p class="text-center text-muted" style="font-size: 0.8em; margin-top: 20px;">
+  © 2026 Oriac Gimeno Lozano. Data Strategist & Business Development Leader in Barcelona.
 </p>
