@@ -4,10 +4,8 @@ title: "Oriac Gimeno Lozano | Business Strategy & Data Portfolio"
 permalink: /
 ---
 
-<!-- CONTENEDOR MAESTRO: Arregla los márgenes y centra el contenido -->
-<div style="max-width: 1100px; margin: 0 auto; padding: 40px 20px;">
+<div style="max-width: 1100px; margin: 0 auto; padding: 20px;">
 
-  <!-- Introducción con foto y SEO optimizado -->
   <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 30px; flex-wrap: wrap;">
     <img src="/assets/images/meva-foto.png" alt="Oriac Gimeno Lozano (Oriac Gimeno)" style="width: 150px; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
     <div style="flex: 1; min-width: 300px;">
@@ -20,16 +18,13 @@ permalink: /
     </div>
   </div>
 
-  <!-- Contador total de proyectos -->
   {% assign total_projects = site.data.repos | size %}
   <p class="lead mb-4" style="color: #666;">Currently showcasing <strong>{{ total_projects }}</strong> projects across different areas.</p>
 
   <hr style="margin-bottom: 40px; opacity: 0.1;">
 
-  <!-- ORDEN MANUAL DE CATEGORÍAS (UNA SOLA LÍNEA) -->
   {% assign category_order = "Personal / Profile, Data Analytics / SQL / Projects, Machine Learning / Deep Learning, Power BI / Visual Analytics, Python / Utilities / Practiques, Web / Portfolio / Pages" | split: ", " %}
 
-  <!-- BUCLE PARA CADA CATEGORÍA -->
   {% for category in category_order %}
     {% assign category_projects = site.data.repos | where_exp: "repo", "repo.categories contains category" %}
     {% if category_projects.size > 0 %}
@@ -62,9 +57,8 @@ permalink: /
     {% endif %}
   {% endfor %}
 
-  <!-- Footer con enlaces sociales y texto defensivo SEO -->
-  <footer style="margin-top: 60px; border-top: 1px solid #eee; pt-5">
-    <p class="text-center text-muted" style="margin-top: 30px;">
+  <footer style="margin-top: 60px; border-top: 1px solid #eee; padding-top: 30px;">
+    <p class="text-center text-muted">
       📫 Connect with me:
       <a href="https://github.com/oriac-gimeno" target="_blank" rel="noopener noreferrer" class="mx-2" style="text-decoration: none;"><i class="fab fa-github"></i> GitHub</a> •
       <a href="https://www.linkedin.com/in/oriacgimeno" target="_blank" rel="noopener noreferrer" class="mx-2" style="text-decoration: none;"><i class="fab fa-linkedin"></i> LinkedIn</a> •
@@ -75,4 +69,4 @@ permalink: /
     </p>
   </footer>
 
-</div> <!-- CIERRE DEL CONTENEDOR MAESTRO -->
+</div>
