@@ -19,7 +19,7 @@ social:
   links:
     - https://www.linkedin.com/in/oriacgimeno/
     - https://oriac-gimeno.framer.website/
-
+  og_image: https://oriac-gimeno.github.io/assets/images/banner-linkedin.jpg.png
 # Theme
 remote_theme: sylhare/Type-on-Strap
 
