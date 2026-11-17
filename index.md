@@ -74,6 +74,7 @@ permalink: /
       <p class="text-muted small mb-0">© 2026 Oriac Gimeno Lozano | Barcelona</p>
     </div>
     <div class="col-md-6 text-center text-md-end">
+      <a href="https://oriacgimeno.com/" target="_blank" class="text-dark mx-2"><i class="fas fa-globe"></i> oriacgimeno.com</a>
       <a href="https://github.com/oriac-gimeno" target="_blank" class="text-dark mx-2"><i class="fab fa-github"></i></a>
       <a href="https://www.linkedin.com/in/oriacgimeno" target="_blank" class="text-dark mx-2"><i class="fab fa-linkedin"></i></a>
     </div>
