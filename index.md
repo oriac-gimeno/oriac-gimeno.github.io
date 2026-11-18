@@ -12,11 +12,24 @@ permalink: /
     Welcome to my professional portfolio. Here you'll find a curated selection of projects in <strong>Data Science, Machine Learning, and Strategic Analytics</strong> developed to solve real-world commercial challenges.
   </p>
   
-  <div class="mt-4 d-flex align-items-center gap-3">
-    <a href="https://oriac-gimeno.framer.website/" class="btn btn-lg text-white shadow-sm" target="_blank" style="background-color: #0055FF; border-radius: 8px; padding: 12px 25px; font-weight: 600;">
-      🚀 Access Consulting Site
+  <style>
+    .brand-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; max-width: 640px; }
+    .brand-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 10px 18px; border: 1px solid #d0d5dd; border-radius: 999px; background: #fff; color: #212529; font-weight: 600; text-decoration: none; white-space: nowrap; box-shadow: 0 1px 2px rgba(0,0,0,.05); transition: border-color .15s, box-shadow .15s, transform .15s; }
+    .brand-btn:hover, .brand-btn:focus-visible { border-color: #0055FF; color: #212529; box-shadow: 0 4px 12px rgba(0,85,255,.15); transform: translateY(-1px); }
+    .brand-logo { width: 20px; height: 20px; flex: none; object-fit: contain; border-radius: 4px; }
+    .brand-btn .fa-linkedin { font-size: 20px; line-height: 20px; width: 20px; text-align: center; }
+    @media (max-width: 575.98px) { .brand-row { grid-template-columns: 1fr; max-width: none; } }
+  </style>
+  <div class="mt-4 brand-row">
+    <a href="https://oriac-gimeno.framer.website/" class="brand-btn" target="_blank" rel="noopener">
+      <img class="brand-logo" src="{{ site.baseurl }}/assets/images/og-monogram.png" alt="" width="20" height="20"> OG Consulting
     </a>
-    <span class="text-muted small">| Professional advisory for GTM Strategy</span>
+    <a href="https://oriacgimeno.com/" class="brand-btn" target="_blank" rel="noopener">
+      <svg class="brand-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#faf7f2"/><path d="M16.07 6.58Q18.39 6.58 20.15 7.52Q21.90 8.46 22.88 10.15Q23.87 11.84 23.87 14.07Q23.87 16.19 22.86 17.87Q21.84 19.55 20.06 20.52Q18.27 21.50 15.92 21.50Q13.61 21.50 11.86 20.54Q10.11 19.58 9.12 17.89Q8.13 16.20 8.13 14Q8.13 11.86 9.15 10.18Q10.16 8.51 11.94 7.54Q13.73 6.58 16.07 6.58M17.13 19.93Q18.15 19.77 18.77 18.99Q19.40 18.20 19.57 16.82Q19.74 15.44 19.38 13.50Q19.04 11.57 18.38 10.32Q17.72 9.07 16.82 8.51Q15.92 7.96 14.87 8.13Q13.83 8.30 13.21 9.09Q12.59 9.88 12.43 11.25Q12.27 12.62 12.62 14.57Q12.96 16.49 13.62 17.74Q14.28 19 15.18 19.55Q16.08 20.11 17.13 19.93" fill="#1a1814"/><rect x="9" y="25" width="14" height="2" fill="#1e3a5f"/></svg> oriacgimeno.com
+    </a>
+    <a href="https://www.linkedin.com/in/oriacgimeno" class="brand-btn" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+    </a>
   </div>
 </div>
 
