@@ -74,9 +74,9 @@ permalink: /
       <p class="text-muted small mb-0">© 2026 Oriac Gimeno Lozano | Barcelona</p>
     </div>
     <div class="col-md-6 text-center text-md-end">
-      <a href="https://oriacgimeno.com/" target="_blank" class="text-dark mx-2"><i class="fas fa-globe"></i> oriacgimeno.com</a>
-      <a href="https://github.com/oriac-gimeno" target="_blank" class="text-dark mx-2"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/oriacgimeno" target="_blank" class="text-dark mx-2"><i class="fab fa-linkedin"></i></a>
+      <a href="https://oriacgimeno.com/" target="_blank" class="text-dark mx-2 d-inline-flex align-items-center justify-content-center" style="min-height: 44px; min-width: 44px; font-size: 18px; gap: 8px;"><i class="fas fa-globe" style="font-size: 26px;"></i> oriacgimeno.com</a>
+      <a href="https://github.com/oriac-gimeno" target="_blank" class="text-dark mx-2 d-inline-flex align-items-center justify-content-center" style="min-height: 44px; min-width: 44px;" aria-label="GitHub"><i class="fab fa-github" style="font-size: 26px;"></i></a>
+      <a href="https://www.linkedin.com/in/oriacgimeno" target="_blank" class="text-dark mx-2 d-inline-flex align-items-center justify-content-center" style="min-height: 44px; min-width: 44px;" aria-label="LinkedIn"><i class="fab fa-linkedin" style="font-size: 26px;"></i></a>
     </div>
   </div>
 </footer>
