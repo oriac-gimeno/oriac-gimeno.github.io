@@ -5,6 +5,11 @@ permalink: /
 ---
 
 <div class="mb-5">
+  <!-- The page had no h1 at all, which Bing's crawler reported as an error alongside
+       the missing title and description. The name goes in the h1 because that is the
+       strongest text signal on the page and the page is this person's portfolio; it is
+       sized small on purpose, since the weight of an h1 is structural, not visual. -->
+  <h1 class="h4 mb-3" style="font-weight: 600; color: #212529;">Oriac Gimeno Lozano</h1>
   <p class="display-6" style="font-weight: 300; color: #333;">
     Bridging the gap between <strong>high-level business strategy</strong> and <strong>data-driven execution</strong>.
   </p>
