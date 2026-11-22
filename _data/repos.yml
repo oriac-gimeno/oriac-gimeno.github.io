@@ -1,10 +1,10 @@
-- name: "TensorFlow-Keras-CNN-Image-Classification "
-  url: "https://github.com/oriac-gimeno/TensorFlow-CNN-Image-Classification "
+- name: "TensorFlow-Keras-CNN-Image-Classification"
+  url: "https://github.com/oriac-gimeno/TensorFlow-Keras-CNN-Image-Classification"
   desc: "End-to-end CNN pipeline using TensorFlow/Keras for image classification (dogs vs. cats). Includes data preprocessing, training, evaluation, and inference scripts."
   categories: ["Machine Learning / Deep Learning", "Python / Utilities / Practiques"]
 
-- name: "Machine-Learning-Predictive-Models "
-  url: "https://github.com/oriac-gimeno/Machine-Learning-Predictive-Models "
+- name: "Machine-Learning-Predictive-Models"
+  url: "https://github.com/oriac-gimeno/Machine-Learning-Predictive-Models"
   desc: "Exploratory Data Analysis and predictive modeling using various ML algorithms. Includes a project presentation and analysis notebooks."
   categories: ["Machine Learning / Deep Learning", "Python / Utilities / Practiques"]
 

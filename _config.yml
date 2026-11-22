@@ -1,7 +1,10 @@
 # Site settings
 # He incluido tu nombre completo y el corto en el título para captar ambas búsquedas
 title: "Oriac Gimeno Lozano (Oriac Gimeno) – Data & ML Portfolio"
-description: "Professional portfolio of Oriac Gimeno Lozano (Oriac Gimeno). Senior Business Development & Data Strategist specializing in Data Analytics, Machine Learning, and B2B Strategy."
+# 146 characters. Bing flagged the previous one as too long: it ran to 175, and
+# both Bing and Google cut the snippet around 160. Same wording, minus the
+# redundant "(Oriac Gimeno)" and the word "specializing".
+description: "Professional portfolio of Oriac Gimeno Lozano. Senior Business Development & Data Strategist in Data Analytics, Machine Learning and B2B Strategy."
 baseurl: ""  # Keep empty for user/organization site
 url: "https://oriac-gimeno.github.io"
 
